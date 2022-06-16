@@ -1,0 +1,214 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color:hsl(225, 100%, 98%);
+    background-image: url(/images/pattern-background-mobile.svg);
+    background-size:cover;
+    background-position:top;
+}
+
+main{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width:325px;
+    height:565px;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 0 1 auto;
+    margin:auto;
+}
+
+.image-container{
+    display:flex;
+    align-items: center;
+}
+
+
+.imageDance{
+    width:325px;
+    height:157px;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+}
+
+.description{
+    margin-top:35px;
+    padding:0 40px;
+}
+
+.description h1{
+    font-size:24px;
+    font-weight:900;
+}
+
+.description p{
+    font-size:14.5px;
+    margin-top:15px;
+    color:hsl(224, 23%, 55%);
+    font-weight:500;
+    line-height:25px;
+}
+
+.plan{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:275px;
+    background-color:hsl(225, 100%, 98%);
+    border-radius:20px;
+    padding:20px 15px;
+}
+
+.plan-mid{
+    display:flex;
+    flex-direction: column;
+    margin-left:15px;
+}
+
+.plan-mid h2{
+    font-size :14px;
+    font-weight:700;
+}
+
+.plan-mid p{
+    font-size:15px;
+    margin-top:3px;
+}
+
+.plan a{
+    font-size:12px;
+    text-decoration:underline;
+    color:hsl(245, 75%, 52%);
+    font-weight:900;
+    margin-left:40px;
+    cursor:pointer;
+}
+
+.plan a:hover{
+    color:hsl(245, 75%, 70%);
+}
+
+.btn{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.btn h2{
+    background-color:hsl(245, 75%, 52%);
+    padding:15px 60px;
+    color:white;
+    font-size:14px;
+    border-radius:10px;
+    width:275px;
+    height:50px;
+}
+
+.btn h2:hover{
+    background-color:hsl(245, 75%, 70%);
+}
+
+.cancel{
+    width:275px;
+}
+
+.cancel p{
+    font-size:14px;
+    color:hsl(224, 23%, 55%);
+    font-weight:700;
+    cursor:pointer;
+}
+
+.cancel p:hover{
+    color:initial;
+    font-weight:700;
+}
+
+@media screen and (min-width:1440px){
+
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+        background-size:cover;
+        background-position:top;
+    }
+    .card{
+        width:450px;
+        height:695px;
+    }
+    .imageDance{
+        width:450px;
+        height:218px;
+    }
+    .description{
+        margin-top:50px;
+        padding:0 75px;
+    }
+
+    .description h1{
+        font-size:28px;
+    }
+    .description p{
+        font-size:16px;
+    }
+
+    .plan{
+        width:350px;
+        height:95px;
+        padding:24px 20px;
+    }
+    .plan-mid{
+        margin-left:0px;
+        margin-right:10px;
+    }
+    .plan-mid h2{
+        font-size :16px;
+    }
+    
+    .plan-mid p{
+        font-size:16px;
+        margin-top:3px;
+    }
+    .plan a{
+        font-size:15px;
+        margin-right:18px;
+    }
+    .btn{
+        margin-top:30px;
+        margin-bottom:30px;
+        padding:0;
+    }
+    .btn h2{
+        padding:15px 60px;
+        font-size:16px;
+        width:350px;
+        height:50px;
+    }
+    .cancel p{
+        font-size:16px;
+    }
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
