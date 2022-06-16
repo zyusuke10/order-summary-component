@@ -8,7 +8,7 @@ font-family: 'Red Hat Display', sans-serif;
 
 body{
     background-color:hsl(225, 100%, 98%);
-    background-image: url(/images/pattern-background-mobile.svg);
+    background-image: url(pattern-background-mobile.svg);
     background-size:cover;
     background-position:top;
 }
@@ -145,7 +145,7 @@ main{
 @media screen and (min-width:1440px){
 
     body{
-        background-image: url(images/pattern-background-desktop.svg);
+        background-image: url(pattern-background-desktop.svg);
         background-size:cover;
         background-position:top;
     }
